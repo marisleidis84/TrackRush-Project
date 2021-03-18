@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+* {
+    font-family: "Nunito";
+}
+
+.lilshadow {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.27);
+}
+
+.playerhome {
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.27);
+    background-color: rgb(36, 35, 35);
+}
+
+.cardfeed {
+    width: auto;
+    height: auto;
+    margin: auto;
+    border: 2px solid green !important;
+}
+
+.fotoperfilfeed {
+    border-radius: 100px;
+    width: 50px;
+    height: 50px;
+    background-color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.cardfriend {
+    width: 12rem;
+}
+
+.fa-user-circle {
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    margin-left: 700px;
+}
+
+.dropdown-menu {
+    margin-left: 600px;
+}
+
+.navfeed:hover,
+.navfriends:hover,
+.navchats:hover {
+    text-decoration: underline red 2px !important;
+}
+
+.fa-podcast {
+    font-size: 24px !important;
+}
+
+.fa-spotify1 {
+    font-size: 30px !important;
+    color: white !important;
+    margin-left: 10px;
+}
+
+.msgBox {
+    outline: none !important;
+    border: 2.5px solid white !important;
+}
+
+.bubble {
+    border: 3px solid rgb(18, 121, 35);
+    border-radius: 20px;
+    padding: 10px !important;
+    padding-left: 20px !important;
+    background-color: rgb(28, 87, 28);
+}
+
+
+.dropdown-toggle:hover {
+    background-color: #28a744 !important;
+    outline: none;
+    border: none;
+}
+
+#profileAvatar {
+    border-radius: 50%;
+    width: 25%;
+}
+
+#postAvatar {
+  width: 12%;
+}
+
+#feedAvatar {
+    border-radius: 50%;
+    width: 100%;
+}
+
+#modalAvatar {
+    border-radius: 50%;
+    width: 75%;
+}
+
+#containerNotFound {
+    margin-bottom: 335px;
+}
+
+/* #feedimage {
+    width: 40%;
+} */
+
+#friendAvatar {
+    border-radius: 50%;
+    width: 25%;
+}
+
+.friendBar {
+    font-size: 20px !important;
+}
+
+.logo {
+    border: 2px solid white !important;
+}
+
+.loginbox {
+    border: 3.5px solid #28a744 !important;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.27) !important; 
+}
+
+.rock {
+    font-family: 'RocknRoll One', sans-serif !important;
+}
+
+.bg-dark {
+    background-color: black !important;
+}
+
+.shadow {
+    box-shadow: 4px 7px 3px 0px rgba(0, 0, 0, 0.21) !important; 
+}
+
+.botonup {
+    margin-bottom: 60px !important; 
+}
+
+.profiledown {
+    margin-bottom: 45px !important;
+}
+
+#like:active, #like:active{
+    cursor: pointer;
+   background-color:white;
+   color: red;
+}
